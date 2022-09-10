@@ -1,0 +1,53 @@
+:root {
+  --hf-bg-color: #1f2937;
+  --btn-color: #3882f6;
+  --btn-hover: #0053da;
+  --hf-text-color: #f9faf8;
+  --secondary-text-color: #e5e7eb;
+  --quote-bg: #e5e7eb;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(./resources/roboto-regular-webfont.woff2);
+}
+
+@font-face {
+  font-family: roboto-bold;
+  src: url(./resources/roboto-bold-webfont.woff2);
+}
+
+@font-face {
+  font-family: roboto-italic;
+  src: url(./resources/roboto-lightitalic-webfont.woff2);
+}
+
+* {
+  font-family: roboto;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.my-navbar {
+  background-color: var(--hf-bg-color);
+}
+
+header div div p {
+  font-family: roboto-bold;
+  font-size: 1.2em;
+  color: var(--hf-text-color);
+}
+
+header div div a {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
