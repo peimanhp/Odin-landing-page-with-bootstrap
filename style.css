@@ -105,3 +105,8 @@ a:hover {
 .quote-section {
   background-color: var(--quote-bg);
 }
+
+footer div {
+  background-color: var(--hf-bg-color);
+  color: var(--secondary-text-color);
+}
