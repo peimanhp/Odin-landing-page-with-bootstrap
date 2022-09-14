@@ -54,9 +54,6 @@ header nav div div div ul li a {
 header div div div div {
   color: var(--hf-text-color);
 }
-.place-holder {
-  background-color: #6d747d;
-}
 
 h1 {
   font-family: roboto-bold;
