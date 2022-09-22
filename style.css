@@ -37,21 +37,7 @@ body {
   background-color: var(--hf-bg-color);
 }
 
-header nav div a {
-  font-family: roboto-bold;
-  font-size: 1.2em;
-  color: var(--hf-text-color);
-  text-decoration: none;
-}
-
-header nav div div div ul li a {
-  font-family: roboto;
-  font-size: 1em;
-  color: var(--secondary-text-color);
-  text-decoration: none;
-}
-
-header div div div div {
+.text-color {
   color: var(--hf-text-color);
 }
 
@@ -103,7 +89,7 @@ a:hover {
   background-color: var(--quote-bg);
 }
 
-footer div {
+.my-footer {
   background-color: var(--hf-bg-color);
   color: var(--secondary-text-color);
 }
